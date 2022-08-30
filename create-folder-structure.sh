@@ -1,9 +1,9 @@
-#adduser --system --disabled-login --no-create-home --group nginx
+adduser --system --disabled-login --no-create-home --group nginx
 mkdir /nginx
 mkdir /nginx/config
 mkdir /nginx/html
 mkdir /nginx/logs
-chown -R nginx:nginx /nginx
+chown -R to:nginx /nginx
 chmod -R g+r /nginx
 chmod -R g-w /nginx
 chmod -R o+r /nginx
